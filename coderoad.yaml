@@ -17,3 +17,5 @@ levels:
   - id: '1'
     steps:
       - id: '1.1'
+        setup:
+          subtasks: false
