@@ -16,12 +16,12 @@
         "yarn install"
       ],
       "commits": [
-        "1a3a516c817cb5124f48c4ec0175082c217417c1"
+        "c5d423ce4411a07e511d1b5df6f56beb77a5b239"
       ]
     },
     "repo": {
       "uri": "https://github.com/ahoward2/materialui-tut",
-      "branch": "v0.1.1"
+      "branch": "v0.1.2"
     },
     "dependencies": [
       {
@@ -46,12 +46,12 @@
           ],
           "setup": {
             "commits": [
-              "be54cafeef709cecd1f02ac20ac3a3d37b27f382"
+              "f5d29671eebc9b6d009e1f39413a8e981a9086e5"
             ]
           },
           "solution": {
             "commits": [
-              "f9a391805e59b0f6b8ce7d12a2770fc44d776fce"
+              "c009f49bcdd861efd44366cdb7e04c9a53f0ad1d"
             ]
           }
         }
