@@ -1,0 +1,62 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "React Component Tutorial",
+    "description": "In this tutorial, you'll implement a React component."
+  },
+  "config": {
+    "testRunner": {
+      "command": "yarn test",
+      "args": {
+        "tap": "--reporter=jest-tap-reporter"
+      },
+      "directory": "coderoad"
+    },
+    "setup": {
+      "commands": [
+        "yarn install"
+      ],
+      "commits": [
+        "1a3a516c817cb5124f48c4ec0175082c217417c1"
+      ]
+    },
+    "repo": {
+      "uri": "https://github.com/ahoward2/materialui-tut",
+      "branch": "v0.1.1"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Install @material-ui/core and Import a Button",
+      "summary": "First, you'll need to install the material-ui React library with yarn.",
+      "content": "Open up a terminal in your root project directory and run:\n\n```bash\nyarn add @material-ui/core\n```\n\nThen add the following Button import:\n\n```javascript\nimport Button from \"@material-ui/core/Button\";\n```",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "Some text.",
+          "hints": [
+            "Try harder",
+            "Try even harder"
+          ],
+          "setup": {
+            "commits": [
+              "be54cafeef709cecd1f02ac20ac3a3d37b27f382"
+            ]
+          },
+          "solution": {
+            "commits": [
+              "f9a391805e59b0f6b8ce7d12a2770fc44d776fce"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
