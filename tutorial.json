@@ -9,8 +9,7 @@
       "command": "yarn test",
       "args": {
         "tap": "--reporter=jest-tap-reporter"
-      },
-      "directory": "coderoad"
+      }
     },
     "setup": {
       "commands": [
